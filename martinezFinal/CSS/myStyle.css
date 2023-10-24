@@ -1,0 +1,79 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("../Images/backgoundImage.jpg");
+    background-size: cover;
+    color: rgba(41, 40, 40, 0.906);
+    font-size: 14pt;
+}
+
+main {
+    width: 950px;
+    height: 800px;
+    margin: 50px auto;
+    border: 10px inset rgba(207, 206, 206, 0.495);
+    padding: 25px 25px 25px 25px;
+    background-color: rgba(207, 206, 206, 0.495);  
+    backdrop-filter: blur(5px);
+}
+
+h1 img {
+    margin-left: 175px;
+    opacity: 0.8;
+}
+
+#custInfo {
+    float: left;
+    width: 400px;
+    height: 220px;
+    background-color: rgba(135, 194, 212, 0.474);  
+    backdrop-filter: blur(5px);
+    border: 10px outset rgba(207, 206, 206, 0.495); ;
+
+}
+
+#buildYourPizza {
+    float: right;
+    width: 400px;
+    height: 220px;
+    background-color: rgba(135, 194, 212, 0.474);  
+    backdrop-filter: blur(5px);
+    border: 10px outset rgba(207, 206, 206, 0.495);
+}
+
+#orderDetails {
+    margin-top: 350px;
+    background-color: rgba(135, 194, 212, 0.474);  
+    backdrop-filter: blur(5px);
+    border: 10px outset rgba(207, 206, 206, 0.495); 
+}
+
+span {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+legend {
+    font-weight: bolder;
+    color:rgba(0, 0, 0, 0.809);
+}
+
+textarea {
+    width: 750px;
+    height: 100px;
+}
+
+.ordAmount {
+    width: 15px;
+}
+
+.buttons {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12pt;
+    background-color: rgba(176, 224, 230, 0.81);
+    width: 140px;
+    height: 25px;
+}
+
+.input {
+    width: 250px;
+}

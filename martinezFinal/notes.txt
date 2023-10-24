@@ -1,0 +1,15 @@
+Final Project
+Due Friday Midnight
+
+- expanded from midterm pizza ordering from
+- the difference is that in the midterm we worked with javascript,
+  now in final will be only working with jquery 
+
+The file will need to be modified:
+- use document.ready()
+- data validation to check for phone numbers and email address in pure jquery
+- don't worry aboutt the slideshow 
+- when you place order in order details, you will save each radio button selection
+   saved in the local storage or cookie (CHECK SAMPLE WEEK 15 for this CODE)
+   to prove you saved it: more tools > local storage ,session, or cookie
+   each time you save you create one string, the message, and concatnate in the cookie

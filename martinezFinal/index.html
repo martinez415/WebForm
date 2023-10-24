@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Gustavo's Pizzaria</title>
+        <link rel="stylesheet" href="CSS/myStyle.css"/>
+    </head>
+    <body>
+        <main>
+           <!-- <ul id="imgList">
+                <li><a href="Images/logo1.PNG" title="Logo 1 black" id="black"></a></li>
+                <li><a href="Images/logo2.PNG" title="Logo 2 blue" id="blue"></a></li>
+                <li><a href="Images/logo3.PNG" title="Logo 3 gray" id="gray"></a></li>
+            </ul> -->
+            <form>
+                <h1><img id="mainImg" src="Images/logo1.PNG"></h1>
+                <fieldset id="custInfo">
+                    <legend>Customer Info:</legend>
+                        <div>
+                            <label for="name">Full Name:</label>
+                            <input type="text" id="name" name="name" class="input">
+                            <span>*</span>
+                        </div>
+                        <div>
+                            <label for="email">Email Address:</label>
+                            <input type="email" id="email" name="email" placeholder="user97@gmail.com" class="input">
+                            <span>*</span>
+                        </div>
+                        <div>
+                            <label for="phone">Phone Number:</label>
+                            <input type="phone" id="phone" name="phone" placeholder="888-777-9999" class="input">
+                            <span>*</span>
+                        </div>
+                        <div>
+                            <label for="delivery">Delivery Date:</label>
+                            <input type="date" id="delivery" name="delivery">
+                            <span>*</span>
+                        </div>
+                        <div>
+                            <label for="order"></label>
+                            <input type="button" id="clear" value="Clear Fields" class="buttons">
+                            <input type="button" id="order" value="Start Order" class="buttons">
+                        </div>
+                </fieldset>
+                <fieldset id="buildYourPizza" disabled>
+                    <legend>Build Your Pizza: </legend>
+                        <div>
+                            <label for="quantity">Quantity:</label>
+                            <input type="text" class="ordAmount" id="quantity" name="quantity" value="1">
+                        </div>
+                        <div>
+                            <label for="size">Size:</label>
+                            <input type="radio" name="size" id="large" value="large" checked>
+                            <label for="large">Large $35.00</label>
+                            <input type="radio" name="size" id="medium" value="medium">
+                            <label for="large">Medium $25.00</label>
+                            <input type="radio" name="size" id="small" value="small">
+                            <label for="large">Small $15.00</label>
+                        </div>
+                        <div>
+                            <label for="add"></label>
+                            <input type="button" id="add" value="Add Item" class="buttons">
+                        </div>
+                </fieldset>
+                <fieldset id="orderDetails" disabled>
+                    <legend>Order Details:</legend>
+                        <div>
+                             <textarea name="orderForm" id="orderForm" row="5" column="80"></textarea>
+                        </div>
+                        <div>
+                            <label for="placeOrder"></label>
+                            <input type="button" id="placeOrder" value="Place Order" class="buttons">
+                            <input type="button" id="newOrder" value="Start New Order" class="buttons">
+                        </div>
+                </fieldset>
+            </form>
+        </main>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="JS/myFunction.js"></script>
+</html>
